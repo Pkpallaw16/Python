@@ -1,0 +1,6 @@
+file1 = open("myfile.txt", "w")
+print("Output of Read function is ")
+#print(file1.read())
+file1.write("Hello again \n")
+file1.close()
+print()
